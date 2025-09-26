@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/dark_grey">
+
+    <EditText
+        android:id="@+id/edit_text_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la tarea"
+        android:textColorHint="@color/light_grey"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_task_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (e.g., 10:00 AM)"
+        android:textColorHint="@color/light_grey"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"
+            android:textColor="@color/white"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Añadir"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/light_grey"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.GestorGastos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/dark_grey</item>
+        <item name="colorPrimary">@color/light_grey</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Theme.GestorGastos" parent="Base.Theme.GestorGastos" />
+</resources>
